@@ -619,6 +619,111 @@
   width: 100%;
 }
 
+@media (max-width: 575.98px) {
+  .hirexp-products .products-heading h1 {
+    font-size: 1.5rem;
+  }
+  .hirexp-products .nav-pills .nav-item {
+    width: 50%;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap {
+    display: inline-block;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-content {
+    float: left;
+    width: 100%;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-content .content {
+    padding: 2rem;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-content .pane-action a {
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 32px;
+    color: #fff;
+    margin-left: 2rem;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-img {
+    width: 100%;
+    float: right;
+    padding: 2rem;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-img img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hirexp-products .products-heading h1 {
+    font-size: 1.5rem;
+  }
+  .hirexp-products .nav-pills .nav-item {
+    width: 50%;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap {
+    display: inline-block;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-content {
+    float: left;
+    width: 100%;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-content .content {
+    padding: 2rem;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-content .pane-action a {
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 32px;
+    color: #fff;
+    margin-left: 2rem;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-img {
+    width: 100%;
+    float: right;
+    padding: 2rem;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-img img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hirexp-products .products-heading h1 {
+    font-size: 1.5rem;
+  }
+  .hirexp-products .nav-pills .nav-item {
+    width: 50%;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap {
+    display: inline-block;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-content {
+    float: left;
+    width: 100%;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-content .content {
+    padding: 2rem;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-content .pane-action a {
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 32px;
+    color: #fff;
+    margin-left: 2rem;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-img {
+    width: 100%;
+    float: right;
+    padding: 2rem;
+  }
+  .hirexp-products .tab-content .tab-pane .tab-pane-wrap .pane-img img {
+    width: 100%;
+  }
+}
+
 /* hirexp products end */
 /* hirexp feedback clients start */
 .feedback {
@@ -847,7 +952,13 @@
   background-color: #fb5a0d;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 575.98px) {
+  .customer-feedback .feedback-slider-thumb {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
   .feedback-slider-item:after {
     left: 30px;
     right: 30px;
@@ -956,129 +1067,41 @@
 
 /* hirexp get started end */
 /* hirexp footer start */
-.footer {
+.page-footer .footer-social-wrap {
   background: -webkit-gradient(linear, left top, right top, from(#61245e), color-stop(90%, #42276f));
   background: linear-gradient(90deg, #61245e, #42276f 90%);
-  padding: 0 0 30px 0;
-  color: #eee;
-  font-size: 14px;
 }
 
-.footer .footer-top {
-  background: -webkit-gradient(linear, left top, right top, from(#61245e), color-stop(90%, #42276f));
-  background: linear-gradient(90deg, #61245e, #42276f 90%);
-  padding: 60px 0 30px 0;
+.page-footer .footer-social-wrap .text {
+  color: #ffffff;
 }
 
-.footer .footer-top .footer-info {
-  margin-bottom: 30px;
+.page-footer .footer-social-wrap .text-icon {
+  color: #ffffff;
+  padding: 12px;
+  height: 40px;
+  width: 40px;
+  -webkit-transition: ease;
+  transition: ease;
 }
 
-.footer .footer-top .footer-info h3 {
-  font-size: 34px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
-  font-weight: 400;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-.footer .footer-top .footer-info p {
-  font-size: 13px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
-  color: #ecf5ff;
-}
-
-.footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #007bff;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+.page-footer .footer-social-wrap .text-icon:hover {
+  background-color: #ffffff;
+  color: #122e8a;
   border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
-.footer .footer-top .social-links a:hover {
-  background: #0067d5;
-  color: #fff;
+.page-footer .main-footer a {
+  color: #122e8a;
+  font-weight: 500;
 }
 
-.footer .footer-top h4 {
-  font-size: 14px;
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-  position: relative;
-  padding-bottom: 10px;
-}
-
-.footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-
-.footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer .footer-top .footer-links ul li {
-  padding: 8px 0;
-}
-
-.footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-.footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
-}
-
-.footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
-}
-
-.footer .footer-top .footer-contact {
-  margin-bottom: 30px;
-}
-
-.footer .footer-top .footer-contact p {
-  line-height: 26px;
-}
-
-.footer .footer-top .footer-newsletter {
-  margin-bottom: 30px;
-}
-
-.footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
-
-.footer .credits {
-  text-align: center;
-  font-size: 13px;
-  color: #f1f7ff;
-}
-
-.footer .credits a {
-  color: #bfddfe;
-}
-
-.footer .credits a:hover {
-  color: #f1f7ff;
+.page-footer .main-footer a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #122e8a;
+          text-decoration-color: #122e8a;
 }
 
 /* hirexp footer end */

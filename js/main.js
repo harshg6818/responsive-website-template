@@ -142,12 +142,12 @@ jQuery(document).ready(function($) {
     feedbackSlider.owlCarousel({
         items: 1,
         nav: true,
-        dots: true,
+        dots: false,
         autoplay: true,
         loop: true,
         mouseDrag: true,
         touchDrag: true,
-        navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
+        navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
         responsive: {
 
             // breakpoint from 767 up
@@ -175,8 +175,6 @@ jQuery(document).ready(function($) {
         var nextRating = $(property.target).find(".owl-item").eq(current).next().find('span').attr('data-rating');
         $('.thumb-prev').find('img').attr('src', prevThumb);
         $('.thumb-next').find('img').attr('src', nextThumb);
-        $('.thumb-prev').find('span').next().html(prevRating + '<i class="fa fa-star"></i>');
-        $('.thumb-next').find('span').next().html(nextRating + '<i class="fa fa-star"></i>');
     });
     $('.thumb-next').on('click', function() {
         feedbackSlider.trigger('next.owl.carousel', [300]);
