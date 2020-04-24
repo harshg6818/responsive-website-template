@@ -1104,5 +1104,15 @@
           text-decoration-color: #122e8a;
 }
 
+.page-footer .footer-copyright-wrap {
+  background: -webkit-gradient(linear, left top, right top, from(#61245e), color-stop(90%, #42276f));
+  background: linear-gradient(90deg, #61245e, #42276f 90%);
+}
+
+.page-footer .copy-img {
+  width: 100px;
+  height: 100px;
+}
+
 /* hirexp footer end */
 /*# sourceMappingURL=style.css.map */
